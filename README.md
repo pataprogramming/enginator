@@ -16,10 +16,13 @@ repository.
 
   https://github.com/rjwut/ArtClientLib/releases/tag/v2.4.0
 
-The localrepo extension to Leiningen is the best way to perform this 
-installation, once the JAR is downloaded:
+The [localrepo plugin](https://github.com/kumarshantanu/lein-localrepo) for
+Leiningen is the best way to perform this installation, once the JAR is
+downloaded:
 
-  lein localrepo install artclientlib-2.4.0-jar rjwut/artclientlib 2.4.0
+```
+% lein localrepo install artclientlib-2.4.0-jar rjwut/artclientlib 2.4.0
+```
 
 ## License
 
